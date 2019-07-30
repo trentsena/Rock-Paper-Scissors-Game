@@ -32,8 +32,8 @@ const game = ()=> {
 
                 // Update images
                 
-                // playerHand.src = `./img/${this.textContent}.png`;
-                // computerHand.src = `./img/${computerChoice}.png`;
+                playerHand.src = `./img/${this.textContent}.png`;
+                computerHand.src = `./img/${computerChoice}.png`;
             });
         });     
     };
